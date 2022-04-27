@@ -1,0 +1,10 @@
+{
+  "Load Address Immediate":{
+    "prefix": "LXI",
+    "body": [
+      "LXI ${1:H}, ${2:0000}H",
+      "$0"
+    ],
+    "description": "Loads Default LXI Code"
+  }
+}
